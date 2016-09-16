@@ -3,10 +3,19 @@
 
 .NavLink {
 
+  display: inline-block;
   text-decoration: none;
   color: $white;
+  padding: 0 2rem;
+
+  &:hover {
+    //background: color($navy tint(30%));
+    //color: #fff;
+    text-decoration: underline;
+  }
 
   &.active {
-    background: $navy;
+    background: color($navy tint(15%));
+    color: #fff;
   }
 }
