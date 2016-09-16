@@ -22,7 +22,7 @@ render((
             <Route path='/about' component={About}/>
 
             <Route path="/repos" component={Repos}>
-                <Route path="/repos/:userName/:repoName" component={Repo}/>
+                <Route path=":userName/:repoName" component={Repo}/>
             </Route>
 
         </Route>
