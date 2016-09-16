@@ -4,9 +4,8 @@
 .Repos {
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex: 1;
-
 
 
   .nav {
@@ -17,13 +16,13 @@
   }
 
   li {
-    display: block;
+    display: inline-block;
     margin: 0;
     padding: 0;
   }
 
   .NavLink {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: $white;
     padding: .5rem 1rem;
