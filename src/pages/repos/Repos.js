@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import { Link } from 'react-router'
+import NavLink from '../../components/navlink/NavLink';
 
 import './repos.scss';
 
@@ -9,10 +9,10 @@ class Repos extends Component {
         const { children } = this.props;
         return (
             <div className="Repos">
-                <h2>Repos</h2>
-                <ul>
-                    <li><Link to="/repos/reactjs/react-router">React Router</Link></li>
-                    <li><Link to="/repos/facebook/react">React</Link></li>
+
+                <ul className="nav">
+                    <li><NavLink to="/repos/reactjs/react-router">React Router</NavLink></li>
+                    <li><NavLink to="/repos/facebook/react">React</NavLink></li>
                 </ul>
 
                 {children}

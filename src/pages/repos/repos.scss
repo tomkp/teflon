@@ -2,7 +2,39 @@
 @import "../../mixins.scss";
 
 .Repos {
+
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex: 1;
+
+
+
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: $navy;
+  }
+
+  li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .NavLink {
+    display: block;
+    text-decoration: none;
+    color: $white;
+    padding: .5rem 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.active {
+      background: color($navy tint(15%));
+      color: #fff;
+    }
+  }
 }

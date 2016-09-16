@@ -20,4 +20,21 @@
     margin: 0;
     padding: 0;
   }
+
+
+  .NavLink {
+    display: inline-block;
+    text-decoration: none;
+    color: $white;
+    padding: 0 2rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.active {
+      background: color($navy tint(15%));
+      color: #fff;
+    }
+  }
 }

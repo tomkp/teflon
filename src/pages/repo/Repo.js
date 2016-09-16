@@ -1,4 +1,6 @@
 import React, {Component, PropTypes} from 'react';
+import Sidebar from '../../layout/sidebar/Sidebar';
+
 import './repo.scss';
 
 class Repo extends Component {
@@ -7,6 +9,7 @@ class Repo extends Component {
         const { params } = this.props;
         return (
             <div className="Repo">
+                <Sidebar />
                 {params.repoName}
             </div>
         );
