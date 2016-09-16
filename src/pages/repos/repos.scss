@@ -1,0 +1,8 @@
+@import "../../colours.scss";
+@import "../../mixins.scss";
+
+.Repos {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

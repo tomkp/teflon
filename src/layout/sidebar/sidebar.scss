@@ -1,0 +1,11 @@
+@import "../../colours.scss";
+@import "../../mixins.scss";
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  //flex: 1;
+
+  width: 2rem;
+  background: $silver;
+}

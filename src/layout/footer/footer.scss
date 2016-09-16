@@ -1,0 +1,12 @@
+@import "../../colours.scss";
+@import "../../mixins.scss";
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  //flex: 1;
+
+  height: 2rem;
+  line-height: 2rem;
+  background: $silver;
+}

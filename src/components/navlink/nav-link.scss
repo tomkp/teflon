@@ -1,0 +1,12 @@
+@import "../../colours.scss";
+@import "../../mixins.scss";
+
+.NavLink {
+
+  text-decoration: none;
+  color: $white;
+
+  &.active {
+    background: $navy;
+  }
+}

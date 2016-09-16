@@ -1,0 +1,8 @@
+@import "../../colours.scss";
+@import "../../mixins.scss";
+
+.About {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
